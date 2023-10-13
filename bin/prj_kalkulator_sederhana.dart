@@ -25,9 +25,11 @@ void main() {
         double hasil = angkaPertama + angkaKedua;
         print("Hasil penjumlahan: $hasil");
         break;
+      //Reven
       case 2:
         double hasil = angkaPertama - angkaKedua;
         print("Hasil pengurangan: $hasil");
+<<<<<<< HEAD
         break;
       case 3:
         double hasil = angkaPertama * angkaKedua;
@@ -40,3 +42,8 @@ void main() {
     }
   }
 }
+=======
+        break;
+    }
+}
+>>>>>>> bde9e6be57aa2cd1e459fe26b1d3324fce35b273
