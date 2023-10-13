@@ -19,5 +19,11 @@ void main() {
     print("4. Pembagian");
     print("============================");
     int pilihan = int.parse(stdin.readLineSync()!);
+
+    switch (pilihan) {
+      case 1:
+        double hasil = angkaPertama + angkaKedua;
+        print("Hasil penjumlahan: $hasil");
+        break;
   }
 }
