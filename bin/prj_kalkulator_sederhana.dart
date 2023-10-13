@@ -28,6 +28,11 @@ void main() {
       case 2:
         double hasil = angkaPertama - angkaKedua;
         print("Hasil pengurangan: $hasil");
-        break;
+        break;
+      case 3:
+        double hasil = angkaPertama * angkaKedua;
+        print("Hasil perkalian: $hasil");
+        break;
+    }
   }
 }
