@@ -46,6 +46,20 @@ void main() {
           print("Angka kedua tidak boleh nol!");
         }
         break;
+      default:
+        print("Pilihan tidak valid!");
+        break;
+    }
+    stdout.write("Apakah Anda ingin melanjutkan (Yes/No)? ");
+    String response = stdin.readLineSync()!;
+
+    if (response.toLowerCase() == 'no') {
+      continueLoop = false;
+      print("Perulangan berakhir. Terima kasih!");
+    } else if (response.toLowerCase() == 'yes') {
+      print("Lanjutkan...");
+    } else {
+      print("Jawaban tidak valid. Mohon jawab dengan 'Yes' atau 'No'.");
     }
   }
 }
