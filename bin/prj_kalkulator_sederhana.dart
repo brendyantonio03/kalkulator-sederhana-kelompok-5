@@ -25,5 +25,9 @@ void main() {
         double hasil = angkaPertama + angkaKedua;
         print("Hasil penjumlahan: $hasil");
         break;
+      case 2:
+        double hasil = angkaPertama - angkaKedua;
+        print("Hasil pengurangan: $hasil");
+        break;
   }
 }
