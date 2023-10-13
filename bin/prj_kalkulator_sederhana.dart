@@ -33,6 +33,10 @@ void main() {
         double hasil = angkaPertama * angkaKedua;
         print("Hasil perkalian: $hasil");
         break;
+      case 3:
+        double hasil = angkaPertama * angkaKedua;
+        print("Hasil perkalian: $hasil");
+        break;
     }
   }
 }
